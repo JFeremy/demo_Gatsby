@@ -1,11 +1,24 @@
-import React, {Fragment} from 'react';
+import React, {Component} from 'react';
+import Data from "./data"
 
-const ListPois = ({dataPois}) => {
-    return (
-        <Fragment>
-            Liste des pois
-        </Fragment>
-    )
+class ListPois extends Component {
+    state = {
+        dataPois: {}
+    }
+
+    async componentDidMount() {
+        this.setState({dataPois: await Data()})       
+    }
+
+    render() {
+        console.log(this.state.dataPois);
+
+        return (
+          <div>
+            Liste des pois {this.state.dataPois.length}
+          </div>
+        );
+      }
 }
 
 export default ListPois;
