@@ -19,7 +19,7 @@ const Header = ({title}) => (
                     <Link className={styles.linkButton} to='/'>{title}</Link>
                 </Typography>
                 <Button>
-                    <Link className={styles.linkButton} to='/references/'>Références</Link>
+                    <Link className={styles.linkButton} to='/sources/'>Les Sources</Link>
                 </Button>
             </Toolbar>
         </AppBar>

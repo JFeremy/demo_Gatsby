@@ -29,7 +29,6 @@ export default async () =>
                         city
                       }
                       websites
-                      phones
                     }
                   }
                 }
