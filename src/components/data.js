@@ -1,3 +1,5 @@
+import "isomorphic-fetch"
+
 export default () =>
  fetch('https://demo-city-v4-itg.smartappscenter.com/contentdelivery/graphql', {
   method: 'POST',
