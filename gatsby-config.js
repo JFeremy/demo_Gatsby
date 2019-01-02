@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-      title: 'Demo Gatsby JS'
+      title: 'https://demo-gatsbyjs.netlify.com/'
     },
     plugins: [
       {
