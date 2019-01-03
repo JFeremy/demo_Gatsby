@@ -27,7 +27,8 @@ const References = () => {
                 alignItems="center"
             >
                 <h1>Les sources :</h1>
-                <List component="nav">
+                <List component="nav">                
+                    <ListItemLink title="Dépôt du projet" link="https://github.com/JFeremy/demo_Gatsby" />
                     <ListItemLink title="Documentation JAMstack" link="https://jamstatic.fr/" />
                     <ListItemLink title="5 raisons de tester la JAMstack" link="https://jamstatic.fr/2017/03/16/5-raisons-de-tester-la-jamstack/" />
                     <ListItemLink title="Introduction JAMstack" link="https://davidl.fr/blog/jamstack.html" />
