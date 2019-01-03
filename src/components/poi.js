@@ -18,7 +18,6 @@ class Poi extends Component {
     
     render() { 
         const {dataPoi} = this.props;
-        console.log(dataPoi)
         return (            
             <Grid item xs={4}>
                 <Card>
