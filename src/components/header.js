@@ -9,7 +9,7 @@ import Button from '@material-ui/core/Button';
 
 import styles from './header.module.css'
 
-import Link from 'gatsby-link'
+import {Link} from 'gatsby'
 
 const Header = ({title}) => (    
     <div className={styles.root}>
