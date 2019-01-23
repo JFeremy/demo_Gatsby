@@ -28,7 +28,10 @@ const References = () => {
         'Questions au créateur de Gatsby': 'https://jamstatic.fr/2017/07/11/interview-kyle-matthews-gatsby/',
         'Construire un blog statique avec Gatsby et Strapi': 'https://jamstatic.fr/2018/04/26/construire-un-blog-statique-avec-gatsby-et-strapi/',
         'Gatsby + Contentful + Netlify et Algolia': 'https://jamstatic.fr/2017/12/05/gatsby-contentful-netlify-algolia/',
-        'Site de Netlify': 'https://www.netlify.com/'
+        'Site de Netlify': 'https://www.netlify.com/',
+        'Demo Orange 1' : 'https://coopnet.sso.infra.ftgroup/recordings/yQqe3MUqAN',
+        'Demo Orange 2' :'https://coopnet.sso.infra.ftgroup/recordings/rF2YLVs2E8' 
+
     }
     return (    
         <Layout>
