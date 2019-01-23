@@ -16,10 +16,10 @@ const Header = ({title}) => (
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="h6" color="inherit" className={styles.grow}>                    
-                    <Link className={styles.linkButton} to='/'>{title}</Link>
+                    <Link className={styles.linkButton} to='/' replace>{title}</Link>
                 </Typography>
                 <Button>
-                    <Link className={styles.linkButton} to='/sources/'>Les Sources</Link>
+                    <Link className={styles.linkButton} to='/sources/' replace>Les Sources</Link>
                 </Button>
             </Toolbar>
         </AppBar>
